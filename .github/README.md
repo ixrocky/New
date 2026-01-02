@@ -37,8 +37,6 @@
 `sudo apt-get install python3-pip -y`
 - Install pip by :
 `sudo pip3 install -U pip`
-- Install Node js by :
-`curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
 `git clone https://github.com/AnonymousX1025/AnonXMusic && cd AnonXMusic`
 - Install requirements by :
@@ -69,3 +67,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </p>
 
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
+
