@@ -11,7 +11,7 @@ from AnonXMusic.utils.database import get_client, is_active_chat, is_autoend
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
-        while not await asyncio.sleep(1800):
+        while not await asyncio.sleep(3600):
             from AnonXMusic.core.userbot import assistants
 
             for num in assistants:
@@ -37,6 +37,7 @@ async def auto_leave():
                                         left += 1
                                     except:
                                         continue
+                                    await asyncio.sleep(20)
                 except:
                     pass
 
