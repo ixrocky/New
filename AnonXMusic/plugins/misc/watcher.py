@@ -5,12 +5,9 @@ from AnonXMusic import app
 from AnonXMusic.core.call import Anony
 from AnonXMusic.utils.database import get_assistant
 
-welcome = 20
-close = 30
 
-
-@app.on_message(filters.video_chat_started, group=welcome)
-@app.on_message(filters.video_chat_ended, group=close)
+@app.on_message(filters.video_chat_started, group=20)
+@app.on_message(filters.video_chat_ended, group=30)
 async def welcome(_, message: Message):
     await Anony.stop_stream_force(message.chat.id)
 
