@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+FROM python:3.11-slim
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
